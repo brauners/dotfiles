@@ -56,3 +56,12 @@ endif
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+
+" Do not create backup files
+set nobackup 
+
+" Do not create swap files
+set noswapfile
+
+" Do not create undo files
+set noundofile
